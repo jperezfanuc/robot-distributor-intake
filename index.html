@@ -120,8 +120,10 @@
         <div class="q" role="radiogroup" aria-labelledby="q-s-audit" data-type="yesno" data-weight="2">
           <p class="q-label" id="q-s-audit">Can you audit a manufacturing line for robot opportunities?</p>
           <div class="opts">
-            <label class="opt"><input type="radio" name="rsrl_line_audit" value="Yes" required><span>Yes</span></label>
-            <label class="opt"><input type="radio" name="rsrl_line_audit" value="No"><span>No</span></label>
+            <label class="opt"><input type="radio" name="rsrl_line_audit" value="0" data-tier="0" required><span>0</span></label>
+            <label class="opt"><input type="radio" name="rsrl_line_audit" value="1 to 5" data-tier="0" required><span>1 to 5</span></label>
+            <label class="opt"><input type="radio" name="rsrl_line_audit" value="6 to 10" data-tier="1"><span>6 to 10</span></label>
+            <label class="opt"><input type="radio" name="rsrl_line_audit" value="Over 10" data-tier="2"><span>Over 10</span></label>
           </div>
         </div>
 
